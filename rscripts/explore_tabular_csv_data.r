@@ -16,11 +16,11 @@ repo_dir=REPO_dirs[min(which(dir.exists(REPO_dirs)))]
 #only specify the directory where csvs are located. That is all.
 data_dir=paste0(repo_dir, "data/")
 setwd(data_dir)
-
+output_dir=paste0(repo_dir, "analysis/df_data_exploration/")
+dir.create(output_dir, showWarnings = F, recursive = T)
 ##################
 #under the hood
-setwd(datarelease_dir)
-csv_files=list.files(path=datarelease_dir, pattern=".csv$", recursive = T, full.names = F)
+csv_files=list.files(path=data_dir, pattern=".csv$", recursive = T, full.names = F)
 
 sink.reset <- function(){
   for(i in seq_len(sink.number())){
@@ -36,6 +36,7 @@ for (csv_file in csv_files){
   
   #create a txt file with summary information for each CSV file
   metadata_file=gsub(".csv$", "_1_metadata.txt", csv_file)
+  metadata_file=paste0(output_dir, metadata_file)
   metadata_file_con=file(metadata_file, open="wt")
   sink(metadata_file_con)
   
@@ -104,27 +105,27 @@ for (csv_file in csv_files){
   ######################
   #create some diagnostic graphics for each csv
   noExt=gsub(".csv$", "", csv_file)
-  tiff(paste0(noExt, "_5_cat_plot.tif"), width = 15, height = 3, units = "in", pointsize = 12, compress="lzw", bg = "white", res = 300)
+  tiff(paste0(output_dir, noExt, "_5_cat_plot.tif"), width = 15, height = 3, units = "in", pointsize = 12, compress="lzw", bg = "white", res = 300)
   print(show_plot(inspect_cat(tmp_file)))
   graphics.off()
   
-  tiff(paste0(noExt, "_3_cor_plot.tif"), width = 12, height = 4, units = "in", pointsize = 12, compress="lzw", bg = "white", res = 300)
+  tiff(paste0(output_dir, noExt, "_3_cor_plot.tif"), width = 12, height = 4, units = "in", pointsize = 12, compress="lzw", bg = "white", res = 300)
   print(show_plot(inspect_cor(tmp_file)))
   graphics.off()
   
-  tiff(paste0(noExt, "_7_mem_plot.tif"), width = 8, height = 4, units = "in", pointsize = 12, compress="lzw", bg = "white", res = 300)
+  tiff(paste0(output_dir, noExt, "_7_mem_plot.tif"), width = 8, height = 4, units = "in", pointsize = 12, compress="lzw", bg = "white", res = 300)
   print(show_plot(inspect_mem(tmp_file)))
   graphics.off()
   
-  tiff(paste0(noExt, "_4_naFreq_plot.tif"), width = 8, height = 4, units = "in", pointsize = 12, compress="lzw", bg = "white", res = 300)
+  tiff(paste0(output_dir, noExt, "_4_naFreq_plot.tif"), width = 8, height = 4, units = "in", pointsize = 12, compress="lzw", bg = "white", res = 300)
   print(show_plot(inspect_na(tmp_file)))
   graphics.off()
   
-  tiff(paste0(noExt, "_2_numeric_plot.tif"), width = 12, height = 4, units = "in", pointsize = 12, compress="lzw", bg = "white", res = 300)
+  tiff(paste0(output_dir, noExt, "_2_numeric_plot.tif"), width = 12, height = 4, units = "in", pointsize = 12, compress="lzw", bg = "white", res = 300)
   print(show_plot(inspect_num(tmp_file)))
   graphics.off()
   
-  tiff(paste0(noExt, "_6_dataTypes_plot.tif"), width = 8, height = 4, units = "in", pointsize = 12, compress="lzw", bg = "white", res = 300)
+  tiff(paste0(output_dir, noExt, "_6_dataTypes_plot.tif"), width = 8, height = 4, units = "in", pointsize = 12, compress="lzw", bg = "white", res = 300)
   print(show_plot(inspect_types(tmp_file)))
   graphics.off()
   

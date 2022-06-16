@@ -1,0 +1,465 @@
+################
+################
+################
+Doing filePolBis.Data.Living.22v2.csv
+################
+################
+dimensions 
+[1] 1048437      36
+################
+Col names 
+ [1] "site"              "date.monitored"    "X2020.name"        "ntbg.accession"   
+ [5] "ntbg.plant.number" "plt.date"          "gpslatdec"         "gpslongdec"       
+ [9] "kpep.georef"       "founder_georef"    "X19.survival"      "X19.vigor"        
+[13] "X19.height"        "X19.diameter"      "X19.reproduction"  "X21.survival"     
+[17] "X21.vigor"         "X21.height"        "X21.diameter"      "X21.reproduction" 
+[21] "comments"          "canopy.cover"      "percent.native"    "understory.depth" 
+[25] "species1"          "species1.percent"  "species2"          "species2.percent" 
+[29] "species3"          "species3.percent"  "species4"          "species4.percent" 
+[33] "species5"          "species5.percent"  "aspect"            "angle"            
+################
+Number of duplicated rows 
+[1] 1048006
+   [1] "Duplicate rows 432\n"  "Duplicate rows 433\n"  "Duplicate rows 434\n" 
+   [4] "Duplicate rows 435\n"  "Duplicate rows 436\n"  "Duplicate rows 437\n" 
+   [7] "Duplicate rows 438\n"  "Duplicate rows 439\n"  "Duplicate rows 440\n" 
+  [10] "Duplicate rows 441\n"  "Duplicate rows 442\n"  "Duplicate rows 443\n" 
+  [13] "Duplicate rows 444\n"  "Duplicate rows 445\n"  "Duplicate rows 446\n" 
+  [16] "Duplicate rows 447\n"  "Duplicate rows 448\n"  "Duplicate rows 449\n" 
+  [19] "Duplicate rows 450\n"  "Duplicate rows 451\n"  "Duplicate rows 452\n" 
+  [22] "Duplicate rows 453\n"  "Duplicate rows 454\n"  "Duplicate rows 455\n" 
+  [25] "Duplicate rows 456\n"  "Duplicate rows 457\n"  "Duplicate rows 458\n" 
+  [28] "Duplicate rows 459\n"  "Duplicate rows 460\n"  "Duplicate rows 461\n" 
+  [31] "Duplicate rows 462\n"  "Duplicate rows 463\n"  "Duplicate rows 464\n" 
+  [34] "Duplicate rows 465\n"  "Duplicate rows 466\n"  "Duplicate rows 467\n" 
+  [37] "Duplicate rows 468\n"  "Duplicate rows 469\n"  "Duplicate rows 470\n" 
+  [40] "Duplicate rows 471\n"  "Duplicate rows 472\n"  "Duplicate rows 473\n" 
+  [43] "Duplicate rows 474\n"  "Duplicate rows 475\n"  "Duplicate rows 476\n" 
+  [46] "Duplicate rows 477\n"  "Duplicate rows 478\n"  "Duplicate rows 479\n" 
+  [49] "Duplicate rows 480\n"  "Duplicate rows 481\n"  "Duplicate rows 482\n" 
+  [52] "Duplicate rows 483\n"  "Duplicate rows 484\n"  "Duplicate rows 485\n" 
+  [55] "Duplicate rows 486\n"  "Duplicate rows 487\n"  "Duplicate rows 488\n" 
+  [58] "Duplicate rows 489\n"  "Duplicate rows 490\n"  "Duplicate rows 491\n" 
+  [61] "Duplicate rows 492\n"  "Duplicate rows 493\n"  "Duplicate rows 494\n" 
+  [64] "Duplicate rows 495\n"  "Duplicate rows 496\n"  "Duplicate rows 497\n" 
+  [67] "Duplicate rows 498\n"  "Duplicate rows 499\n"  "Duplicate rows 500\n" 
+  [70] "Duplicate rows 501\n"  "Duplicate rows 502\n"  "Duplicate rows 503\n" 
+  [73] "Duplicate rows 504\n"  "Duplicate rows 505\n"  "Duplicate rows 506\n" 
+  [76] "Duplicate rows 507\n"  "Duplicate rows 508\n"  "Duplicate rows 509\n" 
+  [79] "Duplicate rows 510\n"  "Duplicate rows 511\n"  "Duplicate rows 512\n" 
+  [82] "Duplicate rows 513\n"  "Duplicate rows 514\n"  "Duplicate rows 515\n" 
+  [85] "Duplicate rows 516\n"  "Duplicate rows 517\n"  "Duplicate rows 518\n" 
+  [88] "Duplicate rows 519\n"  "Duplicate rows 520\n"  "Duplicate rows 521\n" 
+  [91] "Duplicate rows 522\n"  "Duplicate rows 523\n"  "Duplicate rows 524\n" 
+  [94] "Duplicate rows 525\n"  "Duplicate rows 526\n"  "Duplicate rows 527\n" 
+  [97] "Duplicate rows 528\n"  "Duplicate rows 529\n"  "Duplicate rows 530\n" 
+ [100] "Duplicate rows 531\n"  "Duplicate rows 532\n"  "Duplicate rows 533\n" 
+ [103] "Duplicate rows 534\n"  "Duplicate rows 535\n"  "Duplicate rows 536\n" 
+ [106] "Duplicate rows 537\n"  "Duplicate rows 538\n"  "Duplicate rows 539\n" 
+ [109] "Duplicate rows 540\n"  "Duplicate rows 541\n"  "Duplicate rows 542\n" 
+ [112] "Duplicate rows 543\n"  "Duplicate rows 544\n"  "Duplicate rows 545\n" 
+ [115] "Duplicate rows 546\n"  "Duplicate rows 547\n"  "Duplicate rows 548\n" 
+ [118] "Duplicate rows 549\n"  "Duplicate rows 550\n"  "Duplicate rows 551\n" 
+ [121] "Duplicate rows 552\n"  "Duplicate rows 553\n"  "Duplicate rows 554\n" 
+ [124] "Duplicate rows 555\n"  "Duplicate rows 556\n"  "Duplicate rows 557\n" 
+ [127] "Duplicate rows 558\n"  "Duplicate rows 559\n"  "Duplicate rows 560\n" 
+ [130] "Duplicate rows 561\n"  "Duplicate rows 562\n"  "Duplicate rows 563\n" 
+ [133] "Duplicate rows 564\n"  "Duplicate rows 565\n"  "Duplicate rows 566\n" 
+ [136] "Duplicate rows 567\n"  "Duplicate rows 568\n"  "Duplicate rows 569\n" 
+ [139] "Duplicate rows 570\n"  "Duplicate rows 571\n"  "Duplicate rows 572\n" 
+ [142] "Duplicate rows 573\n"  "Duplicate rows 574\n"  "Duplicate rows 575\n" 
+ [145] "Duplicate rows 576\n"  "Duplicate rows 577\n"  "Duplicate rows 578\n" 
+ [148] "Duplicate rows 579\n"  "Duplicate rows 580\n"  "Duplicate rows 581\n" 
+ [151] "Duplicate rows 582\n"  "Duplicate rows 583\n"  "Duplicate rows 584\n" 
+ [154] "Duplicate rows 585\n"  "Duplicate rows 586\n"  "Duplicate rows 587\n" 
+ [157] "Duplicate rows 588\n"  "Duplicate rows 589\n"  "Duplicate rows 590\n" 
+ [160] "Duplicate rows 591\n"  "Duplicate rows 592\n"  "Duplicate rows 593\n" 
+ [163] "Duplicate rows 594\n"  "Duplicate rows 595\n"  "Duplicate rows 596\n" 
+ [166] "Duplicate rows 597\n"  "Duplicate rows 598\n"  "Duplicate rows 599\n" 
+ [169] "Duplicate rows 600\n"  "Duplicate rows 601\n"  "Duplicate rows 602\n" 
+ [172] "Duplicate rows 603\n"  "Duplicate rows 604\n"  "Duplicate rows 605\n" 
+ [175] "Duplicate rows 606\n"  "Duplicate rows 607\n"  "Duplicate rows 608\n" 
+ [178] "Duplicate rows 609\n"  "Duplicate rows 610\n"  "Duplicate rows 611\n" 
+ [181] "Duplicate rows 612\n"  "Duplicate rows 613\n"  "Duplicate rows 614\n" 
+ [184] "Duplicate rows 615\n"  "Duplicate rows 616\n"  "Duplicate rows 617\n" 
+ [187] "Duplicate rows 618\n"  "Duplicate rows 619\n"  "Duplicate rows 620\n" 
+ [190] "Duplicate rows 621\n"  "Duplicate rows 622\n"  "Duplicate rows 623\n" 
+ [193] "Duplicate rows 624\n"  "Duplicate rows 625\n"  "Duplicate rows 626\n" 
+ [196] "Duplicate rows 627\n"  "Duplicate rows 628\n"  "Duplicate rows 629\n" 
+ [199] "Duplicate rows 630\n"  "Duplicate rows 631\n"  "Duplicate rows 632\n" 
+ [202] "Duplicate rows 633\n"  "Duplicate rows 634\n"  "Duplicate rows 635\n" 
+ [205] "Duplicate rows 636\n"  "Duplicate rows 637\n"  "Duplicate rows 638\n" 
+ [208] "Duplicate rows 639\n"  "Duplicate rows 640\n"  "Duplicate rows 641\n" 
+ [211] "Duplicate rows 642\n"  "Duplicate rows 643\n"  "Duplicate rows 644\n" 
+ [214] "Duplicate rows 645\n"  "Duplicate rows 646\n"  "Duplicate rows 647\n" 
+ [217] "Duplicate rows 648\n"  "Duplicate rows 649\n"  "Duplicate rows 650\n" 
+ [220] "Duplicate rows 651\n"  "Duplicate rows 652\n"  "Duplicate rows 653\n" 
+ [223] "Duplicate rows 654\n"  "Duplicate rows 655\n"  "Duplicate rows 656\n" 
+ [226] "Duplicate rows 657\n"  "Duplicate rows 658\n"  "Duplicate rows 659\n" 
+ [229] "Duplicate rows 660\n"  "Duplicate rows 661\n"  "Duplicate rows 662\n" 
+ [232] "Duplicate rows 663\n"  "Duplicate rows 664\n"  "Duplicate rows 665\n" 
+ [235] "Duplicate rows 666\n"  "Duplicate rows 667\n"  "Duplicate rows 668\n" 
+ [238] "Duplicate rows 669\n"  "Duplicate rows 670\n"  "Duplicate rows 671\n" 
+ [241] "Duplicate rows 672\n"  "Duplicate rows 673\n"  "Duplicate rows 674\n" 
+ [244] "Duplicate rows 675\n"  "Duplicate rows 676\n"  "Duplicate rows 677\n" 
+ [247] "Duplicate rows 678\n"  "Duplicate rows 679\n"  "Duplicate rows 680\n" 
+ [250] "Duplicate rows 681\n"  "Duplicate rows 682\n"  "Duplicate rows 683\n" 
+ [253] "Duplicate rows 684\n"  "Duplicate rows 685\n"  "Duplicate rows 686\n" 
+ [256] "Duplicate rows 687\n"  "Duplicate rows 688\n"  "Duplicate rows 689\n" 
+ [259] "Duplicate rows 690\n"  "Duplicate rows 691\n"  "Duplicate rows 692\n" 
+ [262] "Duplicate rows 693\n"  "Duplicate rows 694\n"  "Duplicate rows 695\n" 
+ [265] "Duplicate rows 696\n"  "Duplicate rows 697\n"  "Duplicate rows 698\n" 
+ [268] "Duplicate rows 699\n"  "Duplicate rows 700\n"  "Duplicate rows 701\n" 
+ [271] "Duplicate rows 702\n"  "Duplicate rows 703\n"  "Duplicate rows 704\n" 
+ [274] "Duplicate rows 705\n"  "Duplicate rows 706\n"  "Duplicate rows 707\n" 
+ [277] "Duplicate rows 708\n"  "Duplicate rows 709\n"  "Duplicate rows 710\n" 
+ [280] "Duplicate rows 711\n"  "Duplicate rows 712\n"  "Duplicate rows 713\n" 
+ [283] "Duplicate rows 714\n"  "Duplicate rows 715\n"  "Duplicate rows 716\n" 
+ [286] "Duplicate rows 717\n"  "Duplicate rows 718\n"  "Duplicate rows 719\n" 
+ [289] "Duplicate rows 720\n"  "Duplicate rows 721\n"  "Duplicate rows 722\n" 
+ [292] "Duplicate rows 723\n"  "Duplicate rows 724\n"  "Duplicate rows 725\n" 
+ [295] "Duplicate rows 726\n"  "Duplicate rows 727\n"  "Duplicate rows 728\n" 
+ [298] "Duplicate rows 729\n"  "Duplicate rows 730\n"  "Duplicate rows 731\n" 
+ [301] "Duplicate rows 732\n"  "Duplicate rows 733\n"  "Duplicate rows 734\n" 
+ [304] "Duplicate rows 735\n"  "Duplicate rows 736\n"  "Duplicate rows 737\n" 
+ [307] "Duplicate rows 738\n"  "Duplicate rows 739\n"  "Duplicate rows 740\n" 
+ [310] "Duplicate rows 741\n"  "Duplicate rows 742\n"  "Duplicate rows 743\n" 
+ [313] "Duplicate rows 744\n"  "Duplicate rows 745\n"  "Duplicate rows 746\n" 
+ [316] "Duplicate rows 747\n"  "Duplicate rows 748\n"  "Duplicate rows 749\n" 
+ [319] "Duplicate rows 750\n"  "Duplicate rows 751\n"  "Duplicate rows 752\n" 
+ [322] "Duplicate rows 753\n"  "Duplicate rows 754\n"  "Duplicate rows 755\n" 
+ [325] "Duplicate rows 756\n"  "Duplicate rows 757\n"  "Duplicate rows 758\n" 
+ [328] "Duplicate rows 759\n"  "Duplicate rows 760\n"  "Duplicate rows 761\n" 
+ [331] "Duplicate rows 762\n"  "Duplicate rows 763\n"  "Duplicate rows 764\n" 
+ [334] "Duplicate rows 765\n"  "Duplicate rows 766\n"  "Duplicate rows 767\n" 
+ [337] "Duplicate rows 768\n"  "Duplicate rows 769\n"  "Duplicate rows 770\n" 
+ [340] "Duplicate rows 771\n"  "Duplicate rows 772\n"  "Duplicate rows 773\n" 
+ [343] "Duplicate rows 774\n"  "Duplicate rows 775\n"  "Duplicate rows 776\n" 
+ [346] "Duplicate rows 777\n"  "Duplicate rows 778\n"  "Duplicate rows 779\n" 
+ [349] "Duplicate rows 780\n"  "Duplicate rows 781\n"  "Duplicate rows 782\n" 
+ [352] "Duplicate rows 783\n"  "Duplicate rows 784\n"  "Duplicate rows 785\n" 
+ [355] "Duplicate rows 786\n"  "Duplicate rows 787\n"  "Duplicate rows 788\n" 
+ [358] "Duplicate rows 789\n"  "Duplicate rows 790\n"  "Duplicate rows 791\n" 
+ [361] "Duplicate rows 792\n"  "Duplicate rows 793\n"  "Duplicate rows 794\n" 
+ [364] "Duplicate rows 795\n"  "Duplicate rows 796\n"  "Duplicate rows 797\n" 
+ [367] "Duplicate rows 798\n"  "Duplicate rows 799\n"  "Duplicate rows 800\n" 
+ [370] "Duplicate rows 801\n"  "Duplicate rows 802\n"  "Duplicate rows 803\n" 
+ [373] "Duplicate rows 804\n"  "Duplicate rows 805\n"  "Duplicate rows 806\n" 
+ [376] "Duplicate rows 807\n"  "Duplicate rows 808\n"  "Duplicate rows 809\n" 
+ [379] "Duplicate rows 810\n"  "Duplicate rows 811\n"  "Duplicate rows 812\n" 
+ [382] "Duplicate rows 813\n"  "Duplicate rows 814\n"  "Duplicate rows 815\n" 
+ [385] "Duplicate rows 816\n"  "Duplicate rows 817\n"  "Duplicate rows 818\n" 
+ [388] "Duplicate rows 819\n"  "Duplicate rows 820\n"  "Duplicate rows 821\n" 
+ [391] "Duplicate rows 822\n"  "Duplicate rows 823\n"  "Duplicate rows 824\n" 
+ [394] "Duplicate rows 825\n"  "Duplicate rows 826\n"  "Duplicate rows 827\n" 
+ [397] "Duplicate rows 828\n"  "Duplicate rows 829\n"  "Duplicate rows 830\n" 
+ [400] "Duplicate rows 831\n"  "Duplicate rows 832\n"  "Duplicate rows 833\n" 
+ [403] "Duplicate rows 834\n"  "Duplicate rows 835\n"  "Duplicate rows 836\n" 
+ [406] "Duplicate rows 837\n"  "Duplicate rows 838\n"  "Duplicate rows 839\n" 
+ [409] "Duplicate rows 840\n"  "Duplicate rows 841\n"  "Duplicate rows 842\n" 
+ [412] "Duplicate rows 843\n"  "Duplicate rows 844\n"  "Duplicate rows 845\n" 
+ [415] "Duplicate rows 846\n"  "Duplicate rows 847\n"  "Duplicate rows 848\n" 
+ [418] "Duplicate rows 849\n"  "Duplicate rows 850\n"  "Duplicate rows 851\n" 
+ [421] "Duplicate rows 852\n"  "Duplicate rows 853\n"  "Duplicate rows 854\n" 
+ [424] "Duplicate rows 855\n"  "Duplicate rows 856\n"  "Duplicate rows 857\n" 
+ [427] "Duplicate rows 858\n"  "Duplicate rows 859\n"  "Duplicate rows 860\n" 
+ [430] "Duplicate rows 861\n"  "Duplicate rows 862\n"  "Duplicate rows 863\n" 
+ [433] "Duplicate rows 864\n"  "Duplicate rows 865\n"  "Duplicate rows 866\n" 
+ [436] "Duplicate rows 867\n"  "Duplicate rows 868\n"  "Duplicate rows 869\n" 
+ [439] "Duplicate rows 870\n"  "Duplicate rows 871\n"  "Duplicate rows 872\n" 
+ [442] "Duplicate rows 873\n"  "Duplicate rows 874\n"  "Duplicate rows 875\n" 
+ [445] "Duplicate rows 876\n"  "Duplicate rows 877\n"  "Duplicate rows 878\n" 
+ [448] "Duplicate rows 879\n"  "Duplicate rows 880\n"  "Duplicate rows 881\n" 
+ [451] "Duplicate rows 882\n"  "Duplicate rows 883\n"  "Duplicate rows 884\n" 
+ [454] "Duplicate rows 885\n"  "Duplicate rows 886\n"  "Duplicate rows 887\n" 
+ [457] "Duplicate rows 888\n"  "Duplicate rows 889\n"  "Duplicate rows 890\n" 
+ [460] "Duplicate rows 891\n"  "Duplicate rows 892\n"  "Duplicate rows 893\n" 
+ [463] "Duplicate rows 894\n"  "Duplicate rows 895\n"  "Duplicate rows 896\n" 
+ [466] "Duplicate rows 897\n"  "Duplicate rows 898\n"  "Duplicate rows 899\n" 
+ [469] "Duplicate rows 900\n"  "Duplicate rows 901\n"  "Duplicate rows 902\n" 
+ [472] "Duplicate rows 903\n"  "Duplicate rows 904\n"  "Duplicate rows 905\n" 
+ [475] "Duplicate rows 906\n"  "Duplicate rows 907\n"  "Duplicate rows 908\n" 
+ [478] "Duplicate rows 909\n"  "Duplicate rows 910\n"  "Duplicate rows 911\n" 
+ [481] "Duplicate rows 912\n"  "Duplicate rows 913\n"  "Duplicate rows 914\n" 
+ [484] "Duplicate rows 915\n"  "Duplicate rows 916\n"  "Duplicate rows 917\n" 
+ [487] "Duplicate rows 918\n"  "Duplicate rows 919\n"  "Duplicate rows 920\n" 
+ [490] "Duplicate rows 921\n"  "Duplicate rows 922\n"  "Duplicate rows 923\n" 
+ [493] "Duplicate rows 924\n"  "Duplicate rows 925\n"  "Duplicate rows 926\n" 
+ [496] "Duplicate rows 927\n"  "Duplicate rows 928\n"  "Duplicate rows 929\n" 
+ [499] "Duplicate rows 930\n"  "Duplicate rows 931\n"  "Duplicate rows 932\n" 
+ [502] "Duplicate rows 933\n"  "Duplicate rows 934\n"  "Duplicate rows 935\n" 
+ [505] "Duplicate rows 936\n"  "Duplicate rows 937\n"  "Duplicate rows 938\n" 
+ [508] "Duplicate rows 939\n"  "Duplicate rows 940\n"  "Duplicate rows 941\n" 
+ [511] "Duplicate rows 942\n"  "Duplicate rows 943\n"  "Duplicate rows 944\n" 
+ [514] "Duplicate rows 945\n"  "Duplicate rows 946\n"  "Duplicate rows 947\n" 
+ [517] "Duplicate rows 948\n"  "Duplicate rows 949\n"  "Duplicate rows 950\n" 
+ [520] "Duplicate rows 951\n"  "Duplicate rows 952\n"  "Duplicate rows 953\n" 
+ [523] "Duplicate rows 954\n"  "Duplicate rows 955\n"  "Duplicate rows 956\n" 
+ [526] "Duplicate rows 957\n"  "Duplicate rows 958\n"  "Duplicate rows 959\n" 
+ [529] "Duplicate rows 960\n"  "Duplicate rows 961\n"  "Duplicate rows 962\n" 
+ [532] "Duplicate rows 963\n"  "Duplicate rows 964\n"  "Duplicate rows 965\n" 
+ [535] "Duplicate rows 966\n"  "Duplicate rows 967\n"  "Duplicate rows 968\n" 
+ [538] "Duplicate rows 969\n"  "Duplicate rows 970\n"  "Duplicate rows 971\n" 
+ [541] "Duplicate rows 972\n"  "Duplicate rows 973\n"  "Duplicate rows 974\n" 
+ [544] "Duplicate rows 975\n"  "Duplicate rows 976\n"  "Duplicate rows 977\n" 
+ [547] "Duplicate rows 978\n"  "Duplicate rows 979\n"  "Duplicate rows 980\n" 
+ [550] "Duplicate rows 981\n"  "Duplicate rows 982\n"  "Duplicate rows 983\n" 
+ [553] "Duplicate rows 984\n"  "Duplicate rows 985\n"  "Duplicate rows 986\n" 
+ [556] "Duplicate rows 987\n"  "Duplicate rows 988\n"  "Duplicate rows 989\n" 
+ [559] "Duplicate rows 990\n"  "Duplicate rows 991\n"  "Duplicate rows 992\n" 
+ [562] "Duplicate rows 993\n"  "Duplicate rows 994\n"  "Duplicate rows 995\n" 
+ [565] "Duplicate rows 996\n"  "Duplicate rows 997\n"  "Duplicate rows 998\n" 
+ [568] "Duplicate rows 999\n"  "Duplicate rows 1000\n" "Duplicate rows 1001\n"
+ [571] "Duplicate rows 1002\n" "Duplicate rows 1003\n" "Duplicate rows 1004\n"
+ [574] "Duplicate rows 1005\n" "Duplicate rows 1006\n" "Duplicate rows 1007\n"
+ [577] "Duplicate rows 1008\n" "Duplicate rows 1009\n" "Duplicate rows 1010\n"
+ [580] "Duplicate rows 1011\n" "Duplicate rows 1012\n" "Duplicate rows 1013\n"
+ [583] "Duplicate rows 1014\n" "Duplicate rows 1015\n" "Duplicate rows 1016\n"
+ [586] "Duplicate rows 1017\n" "Duplicate rows 1018\n" "Duplicate rows 1019\n"
+ [589] "Duplicate rows 1020\n" "Duplicate rows 1021\n" "Duplicate rows 1022\n"
+ [592] "Duplicate rows 1023\n" "Duplicate rows 1024\n" "Duplicate rows 1025\n"
+ [595] "Duplicate rows 1026\n" "Duplicate rows 1027\n" "Duplicate rows 1028\n"
+ [598] "Duplicate rows 1029\n" "Duplicate rows 1030\n" "Duplicate rows 1031\n"
+ [601] "Duplicate rows 1032\n" "Duplicate rows 1033\n" "Duplicate rows 1034\n"
+ [604] "Duplicate rows 1035\n" "Duplicate rows 1036\n" "Duplicate rows 1037\n"
+ [607] "Duplicate rows 1038\n" "Duplicate rows 1039\n" "Duplicate rows 1040\n"
+ [610] "Duplicate rows 1041\n" "Duplicate rows 1042\n" "Duplicate rows 1043\n"
+ [613] "Duplicate rows 1044\n" "Duplicate rows 1045\n" "Duplicate rows 1046\n"
+ [616] "Duplicate rows 1047\n" "Duplicate rows 1048\n" "Duplicate rows 1049\n"
+ [619] "Duplicate rows 1050\n" "Duplicate rows 1051\n" "Duplicate rows 1052\n"
+ [622] "Duplicate rows 1053\n" "Duplicate rows 1054\n" "Duplicate rows 1055\n"
+ [625] "Duplicate rows 1056\n" "Duplicate rows 1057\n" "Duplicate rows 1058\n"
+ [628] "Duplicate rows 1059\n" "Duplicate rows 1060\n" "Duplicate rows 1061\n"
+ [631] "Duplicate rows 1062\n" "Duplicate rows 1063\n" "Duplicate rows 1064\n"
+ [634] "Duplicate rows 1065\n" "Duplicate rows 1066\n" "Duplicate rows 1067\n"
+ [637] "Duplicate rows 1068\n" "Duplicate rows 1069\n" "Duplicate rows 1070\n"
+ [640] "Duplicate rows 1071\n" "Duplicate rows 1072\n" "Duplicate rows 1073\n"
+ [643] "Duplicate rows 1074\n" "Duplicate rows 1075\n" "Duplicate rows 1076\n"
+ [646] "Duplicate rows 1077\n" "Duplicate rows 1078\n" "Duplicate rows 1079\n"
+ [649] "Duplicate rows 1080\n" "Duplicate rows 1081\n" "Duplicate rows 1082\n"
+ [652] "Duplicate rows 1083\n" "Duplicate rows 1084\n" "Duplicate rows 1085\n"
+ [655] "Duplicate rows 1086\n" "Duplicate rows 1087\n" "Duplicate rows 1088\n"
+ [658] "Duplicate rows 1089\n" "Duplicate rows 1090\n" "Duplicate rows 1091\n"
+ [661] "Duplicate rows 1092\n" "Duplicate rows 1093\n" "Duplicate rows 1094\n"
+ [664] "Duplicate rows 1095\n" "Duplicate rows 1096\n" "Duplicate rows 1097\n"
+ [667] "Duplicate rows 1098\n" "Duplicate rows 1099\n" "Duplicate rows 1100\n"
+ [670] "Duplicate rows 1101\n" "Duplicate rows 1102\n" "Duplicate rows 1103\n"
+ [673] "Duplicate rows 1104\n" "Duplicate rows 1105\n" "Duplicate rows 1106\n"
+ [676] "Duplicate rows 1107\n" "Duplicate rows 1108\n" "Duplicate rows 1109\n"
+ [679] "Duplicate rows 1110\n" "Duplicate rows 1111\n" "Duplicate rows 1112\n"
+ [682] "Duplicate rows 1113\n" "Duplicate rows 1114\n" "Duplicate rows 1115\n"
+ [685] "Duplicate rows 1116\n" "Duplicate rows 1117\n" "Duplicate rows 1118\n"
+ [688] "Duplicate rows 1119\n" "Duplicate rows 1120\n" "Duplicate rows 1121\n"
+ [691] "Duplicate rows 1122\n" "Duplicate rows 1123\n" "Duplicate rows 1124\n"
+ [694] "Duplicate rows 1125\n" "Duplicate rows 1126\n" "Duplicate rows 1127\n"
+ [697] "Duplicate rows 1128\n" "Duplicate rows 1129\n" "Duplicate rows 1130\n"
+ [700] "Duplicate rows 1131\n" "Duplicate rows 1132\n" "Duplicate rows 1133\n"
+ [703] "Duplicate rows 1134\n" "Duplicate rows 1135\n" "Duplicate rows 1136\n"
+ [706] "Duplicate rows 1137\n" "Duplicate rows 1138\n" "Duplicate rows 1139\n"
+ [709] "Duplicate rows 1140\n" "Duplicate rows 1141\n" "Duplicate rows 1142\n"
+ [712] "Duplicate rows 1143\n" "Duplicate rows 1144\n" "Duplicate rows 1145\n"
+ [715] "Duplicate rows 1146\n" "Duplicate rows 1147\n" "Duplicate rows 1148\n"
+ [718] "Duplicate rows 1149\n" "Duplicate rows 1150\n" "Duplicate rows 1151\n"
+ [721] "Duplicate rows 1152\n" "Duplicate rows 1153\n" "Duplicate rows 1154\n"
+ [724] "Duplicate rows 1155\n" "Duplicate rows 1156\n" "Duplicate rows 1157\n"
+ [727] "Duplicate rows 1158\n" "Duplicate rows 1159\n" "Duplicate rows 1160\n"
+ [730] "Duplicate rows 1161\n" "Duplicate rows 1162\n" "Duplicate rows 1163\n"
+ [733] "Duplicate rows 1164\n" "Duplicate rows 1165\n" "Duplicate rows 1166\n"
+ [736] "Duplicate rows 1167\n" "Duplicate rows 1168\n" "Duplicate rows 1169\n"
+ [739] "Duplicate rows 1170\n" "Duplicate rows 1171\n" "Duplicate rows 1172\n"
+ [742] "Duplicate rows 1173\n" "Duplicate rows 1174\n" "Duplicate rows 1175\n"
+ [745] "Duplicate rows 1176\n" "Duplicate rows 1177\n" "Duplicate rows 1178\n"
+ [748] "Duplicate rows 1179\n" "Duplicate rows 1180\n" "Duplicate rows 1181\n"
+ [751] "Duplicate rows 1182\n" "Duplicate rows 1183\n" "Duplicate rows 1184\n"
+ [754] "Duplicate rows 1185\n" "Duplicate rows 1186\n" "Duplicate rows 1187\n"
+ [757] "Duplicate rows 1188\n" "Duplicate rows 1189\n" "Duplicate rows 1190\n"
+ [760] "Duplicate rows 1191\n" "Duplicate rows 1192\n" "Duplicate rows 1193\n"
+ [763] "Duplicate rows 1194\n" "Duplicate rows 1195\n" "Duplicate rows 1196\n"
+ [766] "Duplicate rows 1197\n" "Duplicate rows 1198\n" "Duplicate rows 1199\n"
+ [769] "Duplicate rows 1200\n" "Duplicate rows 1201\n" "Duplicate rows 1202\n"
+ [772] "Duplicate rows 1203\n" "Duplicate rows 1204\n" "Duplicate rows 1205\n"
+ [775] "Duplicate rows 1206\n" "Duplicate rows 1207\n" "Duplicate rows 1208\n"
+ [778] "Duplicate rows 1209\n" "Duplicate rows 1210\n" "Duplicate rows 1211\n"
+ [781] "Duplicate rows 1212\n" "Duplicate rows 1213\n" "Duplicate rows 1214\n"
+ [784] "Duplicate rows 1215\n" "Duplicate rows 1216\n" "Duplicate rows 1217\n"
+ [787] "Duplicate rows 1218\n" "Duplicate rows 1219\n" "Duplicate rows 1220\n"
+ [790] "Duplicate rows 1221\n" "Duplicate rows 1222\n" "Duplicate rows 1223\n"
+ [793] "Duplicate rows 1224\n" "Duplicate rows 1225\n" "Duplicate rows 1226\n"
+ [796] "Duplicate rows 1227\n" "Duplicate rows 1228\n" "Duplicate rows 1229\n"
+ [799] "Duplicate rows 1230\n" "Duplicate rows 1231\n" "Duplicate rows 1232\n"
+ [802] "Duplicate rows 1233\n" "Duplicate rows 1234\n" "Duplicate rows 1235\n"
+ [805] "Duplicate rows 1236\n" "Duplicate rows 1237\n" "Duplicate rows 1238\n"
+ [808] "Duplicate rows 1239\n" "Duplicate rows 1240\n" "Duplicate rows 1241\n"
+ [811] "Duplicate rows 1242\n" "Duplicate rows 1243\n" "Duplicate rows 1244\n"
+ [814] "Duplicate rows 1245\n" "Duplicate rows 1246\n" "Duplicate rows 1247\n"
+ [817] "Duplicate rows 1248\n" "Duplicate rows 1249\n" "Duplicate rows 1250\n"
+ [820] "Duplicate rows 1251\n" "Duplicate rows 1252\n" "Duplicate rows 1253\n"
+ [823] "Duplicate rows 1254\n" "Duplicate rows 1255\n" "Duplicate rows 1256\n"
+ [826] "Duplicate rows 1257\n" "Duplicate rows 1258\n" "Duplicate rows 1259\n"
+ [829] "Duplicate rows 1260\n" "Duplicate rows 1261\n" "Duplicate rows 1262\n"
+ [832] "Duplicate rows 1263\n" "Duplicate rows 1264\n" "Duplicate rows 1265\n"
+ [835] "Duplicate rows 1266\n" "Duplicate rows 1267\n" "Duplicate rows 1268\n"
+ [838] "Duplicate rows 1269\n" "Duplicate rows 1270\n" "Duplicate rows 1271\n"
+ [841] "Duplicate rows 1272\n" "Duplicate rows 1273\n" "Duplicate rows 1274\n"
+ [844] "Duplicate rows 1275\n" "Duplicate rows 1276\n" "Duplicate rows 1277\n"
+ [847] "Duplicate rows 1278\n" "Duplicate rows 1279\n" "Duplicate rows 1280\n"
+ [850] "Duplicate rows 1281\n" "Duplicate rows 1282\n" "Duplicate rows 1283\n"
+ [853] "Duplicate rows 1284\n" "Duplicate rows 1285\n" "Duplicate rows 1286\n"
+ [856] "Duplicate rows 1287\n" "Duplicate rows 1288\n" "Duplicate rows 1289\n"
+ [859] "Duplicate rows 1290\n" "Duplicate rows 1291\n" "Duplicate rows 1292\n"
+ [862] "Duplicate rows 1293\n" "Duplicate rows 1294\n" "Duplicate rows 1295\n"
+ [865] "Duplicate rows 1296\n" "Duplicate rows 1297\n" "Duplicate rows 1298\n"
+ [868] "Duplicate rows 1299\n" "Duplicate rows 1300\n" "Duplicate rows 1301\n"
+ [871] "Duplicate rows 1302\n" "Duplicate rows 1303\n" "Duplicate rows 1304\n"
+ [874] "Duplicate rows 1305\n" "Duplicate rows 1306\n" "Duplicate rows 1307\n"
+ [877] "Duplicate rows 1308\n" "Duplicate rows 1309\n" "Duplicate rows 1310\n"
+ [880] "Duplicate rows 1311\n" "Duplicate rows 1312\n" "Duplicate rows 1313\n"
+ [883] "Duplicate rows 1314\n" "Duplicate rows 1315\n" "Duplicate rows 1316\n"
+ [886] "Duplicate rows 1317\n" "Duplicate rows 1318\n" "Duplicate rows 1319\n"
+ [889] "Duplicate rows 1320\n" "Duplicate rows 1321\n" "Duplicate rows 1322\n"
+ [892] "Duplicate rows 1323\n" "Duplicate rows 1324\n" "Duplicate rows 1325\n"
+ [895] "Duplicate rows 1326\n" "Duplicate rows 1327\n" "Duplicate rows 1328\n"
+ [898] "Duplicate rows 1329\n" "Duplicate rows 1330\n" "Duplicate rows 1331\n"
+ [901] "Duplicate rows 1332\n" "Duplicate rows 1333\n" "Duplicate rows 1334\n"
+ [904] "Duplicate rows 1335\n" "Duplicate rows 1336\n" "Duplicate rows 1337\n"
+ [907] "Duplicate rows 1338\n" "Duplicate rows 1339\n" "Duplicate rows 1340\n"
+ [910] "Duplicate rows 1341\n" "Duplicate rows 1342\n" "Duplicate rows 1343\n"
+ [913] "Duplicate rows 1344\n" "Duplicate rows 1345\n" "Duplicate rows 1346\n"
+ [916] "Duplicate rows 1347\n" "Duplicate rows 1348\n" "Duplicate rows 1349\n"
+ [919] "Duplicate rows 1350\n" "Duplicate rows 1351\n" "Duplicate rows 1352\n"
+ [922] "Duplicate rows 1353\n" "Duplicate rows 1354\n" "Duplicate rows 1355\n"
+ [925] "Duplicate rows 1356\n" "Duplicate rows 1357\n" "Duplicate rows 1358\n"
+ [928] "Duplicate rows 1359\n" "Duplicate rows 1360\n" "Duplicate rows 1361\n"
+ [931] "Duplicate rows 1362\n" "Duplicate rows 1363\n" "Duplicate rows 1364\n"
+ [934] "Duplicate rows 1365\n" "Duplicate rows 1366\n" "Duplicate rows 1367\n"
+ [937] "Duplicate rows 1368\n" "Duplicate rows 1369\n" "Duplicate rows 1370\n"
+ [940] "Duplicate rows 1371\n" "Duplicate rows 1372\n" "Duplicate rows 1373\n"
+ [943] "Duplicate rows 1374\n" "Duplicate rows 1375\n" "Duplicate rows 1376\n"
+ [946] "Duplicate rows 1377\n" "Duplicate rows 1378\n" "Duplicate rows 1379\n"
+ [949] "Duplicate rows 1380\n" "Duplicate rows 1381\n" "Duplicate rows 1382\n"
+ [952] "Duplicate rows 1383\n" "Duplicate rows 1384\n" "Duplicate rows 1385\n"
+ [955] "Duplicate rows 1386\n" "Duplicate rows 1387\n" "Duplicate rows 1388\n"
+ [958] "Duplicate rows 1389\n" "Duplicate rows 1390\n" "Duplicate rows 1391\n"
+ [961] "Duplicate rows 1392\n" "Duplicate rows 1393\n" "Duplicate rows 1394\n"
+ [964] "Duplicate rows 1395\n" "Duplicate rows 1396\n" "Duplicate rows 1397\n"
+ [967] "Duplicate rows 1398\n" "Duplicate rows 1399\n" "Duplicate rows 1400\n"
+ [970] "Duplicate rows 1401\n" "Duplicate rows 1402\n" "Duplicate rows 1403\n"
+ [973] "Duplicate rows 1404\n" "Duplicate rows 1405\n" "Duplicate rows 1406\n"
+ [976] "Duplicate rows 1407\n" "Duplicate rows 1408\n" "Duplicate rows 1409\n"
+ [979] "Duplicate rows 1410\n" "Duplicate rows 1411\n" "Duplicate rows 1412\n"
+ [982] "Duplicate rows 1413\n" "Duplicate rows 1414\n" "Duplicate rows 1415\n"
+ [985] "Duplicate rows 1416\n" "Duplicate rows 1417\n" "Duplicate rows 1418\n"
+ [988] "Duplicate rows 1419\n" "Duplicate rows 1420\n" "Duplicate rows 1421\n"
+ [991] "Duplicate rows 1422\n" "Duplicate rows 1423\n" "Duplicate rows 1424\n"
+ [994] "Duplicate rows 1425\n" "Duplicate rows 1426\n" "Duplicate rows 1427\n"
+ [997] "Duplicate rows 1428\n" "Duplicate rows 1429\n" "Duplicate rows 1430\n"
+[1000] "Duplicate rows 1431\n"
+ [ reached getOption("max.print") -- omitted 1047006 entries ]
+################
+summary 
+     site           date.monitored      X2020.name        ntbg.accession    
+ Length:1048437     Length:1048437     Length:1048437     Min.   :20160612  
+ Class :character   Class :character   Class :character   1st Qu.:20160753  
+ Mode  :character   Mode  :character   Mode  :character   Median :20160796  
+                                                          Mean   :20165726  
+                                                          3rd Qu.:20160804  
+                                                          Max.   :20200236  
+                                                          NA's   :1048007   
+ ntbg.plant.number   plt.date          gpslatdec          gpslongdec       
+ Min.   :  1.0     Length:1048437     Length:1048437     Length:1048437    
+ 1st Qu.: 50.0     Class :character   Class :character   Class :character  
+ Median :283.5     Mode  :character   Mode  :character   Mode  :character  
+ Mean   :294.1                                                             
+ 3rd Qu.:510.0                                                             
+ Max.   :801.0                                                             
+ NA's   :1048007                                                           
+ kpep.georef        founder_georef     X19.survival        X19.vigor        
+ Length:1048437     Length:1048437     Length:1048437     Length:1048437    
+ Class :character   Class :character   Class :character   Class :character  
+ Mode  :character   Mode  :character   Mode  :character   Mode  :character  
+                                                                            
+                                                                            
+                                                                            
+                                                                            
+  X19.height        X19.diameter       X19.reproduction   X21.survival      
+ Length:1048437     Length:1048437     Length:1048437     Length:1048437    
+ Class :character   Class :character   Class :character   Class :character  
+ Mode  :character   Mode  :character   Mode  :character   Mode  :character  
+                                                                            
+                                                                            
+                                                                            
+                                                                            
+  X21.vigor           X21.height       X21.diameter     X21.reproduction  
+ Length:1048437     Min.   :  7.1     Min.   :0.2       Length:1048437    
+ Class :character   1st Qu.: 39.0     1st Qu.:0.7       Class :character  
+ Mode  :character   Median : 61.0     Median :1.0       Mode  :character  
+                    Mean   : 68.9     Mean   :1.1                         
+                    3rd Qu.: 86.0     3rd Qu.:1.3                         
+                    Max.   :278.0     Max.   :3.6                         
+                    NA's   :1048008   NA's   :1048008                     
+   comments          canopy.cover     percent.native    understory.depth 
+ Length:1048437     Min.   :  0.0     Min.   :  0.0     Min.   : 0.0     
+ Class :character   1st Qu.:  0.0     1st Qu.: 80.0     1st Qu.: 0.2     
+ Mode  :character   Median : 30.0     Median :100.0     Median : 0.5     
+                    Mean   : 29.1     Mean   : 83.6     Mean   : 0.9     
+                    3rd Qu.: 50.0     3rd Qu.:100.0     3rd Qu.: 1.0     
+                    Max.   :100.0     Max.   :100.0     Max.   :50.0     
+                    NA's   :1048007   NA's   :1048181   NA's   :1048007  
+   species1         species1.percent    species2         species2.percent 
+ Length:1048437     Min.   :  0.0     Length:1048437     Min.   : 0.0     
+ Class :character   1st Qu.: 20.0     Class :character   1st Qu.:10.0     
+ Mode  :character   Median : 40.0     Mode  :character   Median :20.0     
+                    Mean   : 43.1                        Mean   :20.7     
+                    3rd Qu.: 70.0                        3rd Qu.:30.0     
+                    Max.   :120.0                        Max.   :80.0     
+                    NA's   :1048007                      NA's   :1048013  
+   species3         species3.percent    species4         species4.percent 
+ Length:1048437     Min.   : 10.0     Length:1048437     Min.   : 0.0     
+ Class :character   1st Qu.: 10.0     Class :character   1st Qu.:10.0     
+ Mode  :character   Median : 20.0     Mode  :character   Median :10.0     
+                    Mean   : 28.6                        Mean   :12.1     
+                    3rd Qu.: 20.0                        3rd Qu.:20.0     
+                    Max.   :100.0                        Max.   :70.0     
+                    NA's   :1048050                      NA's   :1048140  
+   species5         species5.percent      aspect           angle          
+ Length:1048437     Min.   :10.0      Min.   : 0.0      Length:1048437    
+ Class :character   1st Qu.:10.0      1st Qu.:10.0      Class :character  
+ Mode  :character   Median :10.0      Median :30.0      Mode  :character  
+                    Mean   :12.6      Mean   :28.7                        
+                    3rd Qu.:20.0      3rd Qu.:40.0                        
+                    Max.   :20.0      Max.   :80.0                        
+                    NA's   :1048341   NA's   :1048008                     
+################
+na occurrence 
+# A tibble: 36 x 3
+   col_name              cnt  pcnt
+   <chr>               <int> <dbl>
+ 1 species5.percent  1048341  100.
+ 2 percent.native    1048181  100.
+ 3 species4.percent  1048140  100.
+ 4 species3.percent  1048050  100.
+ 5 species2.percent  1048013  100.
+ 6 X21.height        1048008  100.
+ 7 X21.diameter      1048008  100.
+ 8 aspect            1048008  100.
+ 9 ntbg.accession    1048007  100.
+10 ntbg.plant.number 1048007  100.
+# ... with 26 more rows
+################
+numeric summaries 
+# A tibble: 13 x 10
+   col_name          min      q1  median    mean     q3    max      sd pcnt_na hist    
+   <chr>           <dbl>   <dbl>   <dbl>   <dbl>  <dbl>  <dbl>   <dbl>   <dbl> <named >
+ 1 ntbg.accessi~ 2.02e+7 2.02e+7 2.02e+7 2.02e+7 2.02e7 2.02e7 1.28e+4    100. <tibble>
+ 2 ntbg.plant.n~ 1   e+0 5   e+1 2.84e+2 2.94e+2 5.1 e2 8.01e2 2.39e+2    100. <tibble>
+ 3 X21.height    7.1 e+0 3.9 e+1 6.1 e+1 6.89e+1 8.6 e1 2.78e2 4.08e+1    100. <tibble>
+ 4 X21.diameter  2   e-1 7   e-1 1   e+0 1.09e+0 1.3 e0 3.6 e0 5.57e-1    100. <tibble>
+ 5 canopy.cover  0       0       3   e+1 2.91e+1 5   e1 1   e2 2.96e+1    100. <tibble>
+ 6 percent.nati~ 0       8   e+1 1   e+2 8.36e+1 1   e2 1   e2 2.77e+1    100. <tibble>
+ 7 understory.d~ 0       2.5 e-1 5   e-1 8.57e-1 1   e0 5   e1 2.61e+0    100. <tibble>
+ 8 species1.per~ 0       2   e+1 4   e+1 4.31e+1 7   e1 1.2 e2 2.86e+1    100. <tibble>
+ 9 species2.per~ 0       1   e+1 2   e+1 2.07e+1 3   e1 8   e1 1.39e+1    100. <tibble>
+10 species3.per~ 1   e+1 1   e+1 2   e+1 2.86e+1 2   e1 1   e2 3.04e+1    100. <tibble>
+11 species4.per~ 0       1   e+1 1   e+1 1.21e+1 2   e1 7   e1 9.24e+0    100. <tibble>
+12 species5.per~ 1   e+1 1   e+1 1   e+1 1.26e+1 2   e1 2   e1 4.41e+0    100. <tibble>
+13 aspect        0       1   e+1 3   e+1 2.87e+1 4   e1 8   e1 1.75e+1    100. <tibble>
