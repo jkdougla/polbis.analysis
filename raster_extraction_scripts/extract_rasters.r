@@ -1,6 +1,8 @@
+#set up working directory for project
 wd="D:/projects/2021_ntbg/"
 setwd(wd)
 
+#load necessary libraries
 library(terra)
 data_dir="D:/projects/2021_spatial_prevalence/data/processed/"
 data_subdirs=list.dirs(data_dir)
