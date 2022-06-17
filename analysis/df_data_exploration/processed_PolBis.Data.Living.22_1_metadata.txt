@@ -1,0 +1,474 @@
+################
+################
+################
+Doing fileprocessed_PolBis.Data.Living.22.csv
+################
+################
+dimensions 
+[1] 430 139
+################
+Col names 
+  [1] "ï..site"                                         
+  [2] "date.monitored"                                  
+  [3] "name.2019"                                       
+  [4] "ntbg.accession"                                  
+  [5] "ntbg.plant.number"                               
+  [6] "plt.date"                                        
+  [7] "gpslatdec"                                       
+  [8] "gpslongdec"                                      
+  [9] "kpep.georef"                                     
+ [10] "founder_georef"                                  
+ [11] "survival.19"                                     
+ [12] "vigor.19"                                        
+ [13] "height.19"                                       
+ [14] "diameter.19"                                     
+ [15] "reproduction.19"                                 
+ [16] "survival.21"                                     
+ [17] "vigor.21"                                        
+ [18] "height.21"                                       
+ [19] "diameter.21"                                     
+ [20] "reproduction.21"                                 
+ [21] "comments"                                        
+ [22] "canopy.cover"                                    
+ [23] "percent.native"                                  
+ [24] "understory.depth"                                
+ [25] "species1"                                        
+ [26] "species1.percent"                                
+ [27] "species2"                                        
+ [28] "species2.percent"                                
+ [29] "species3"                                        
+ [30] "species3.percent"                                
+ [31] "species4"                                        
+ [32] "species4.percent"                                
+ [33] "species5"                                        
+ [34] "species5.percent"                                
+ [35] "aspect"                                          
+ [36] "angle"                                           
+ [37] "Ageratum.conyzoides"                             
+ [38] "Alyxia.stellata"                                 
+ [39] "Andropogon.spp"                                  
+ [40] "Andropogon.spp."                                 
+ [41] "Andropogon.spp.s"                                
+ [42] "Andropogon.spp.spp"                              
+ [43] "Antidesma.platyphyllum"                          
+ [44] "AntSan"                                          
+ [45] "AspleniumSpp."                                   
+ [46] "Bidens"                                          
+ [47] "Bidens.spp"                                      
+ [48] "Bidens.valida"                                   
+ [49] "Blechnum.appendiculatum"                         
+ [50] "Christella.dentata"                              
+ [51] "Cibotium.glaucum"                                
+ [52] "Clidemia.hirta"                                  
+ [53] "Cordyline.fruticosa"                             
+ [54] "Cyanea"                                          
+ [55] "Cyanea.fissa"                                    
+ [56] "Cyanea.spp"                                      
+ [57] "CyaneaSp"                                        
+ [58] "Cyclosorus"                                      
+ [59] "CyclosorusSp"                                    
+ [60] "Cyperus.spp"                                     
+ [61] "Cyrtandra.spp"                                   
+ [62] "DepSan"                                          
+ [63] "Dianella.sandwicensis"                           
+ [64] "Dicranopteris.linearis"                          
+ [65] "Diospyrus.sand"                                  
+ [66] "Diplazium.sandwichianum"                         
+ [67] "Diploterygium.pinnatum"                          
+ [68] "Doryopteris"                                     
+ [69] "Dryopteris.spp"                                  
+ [70] "Dubautia.spp"                                    
+ [71] "Dubautia.spp.laxa"                               
+ [72] "Elaphoglossum.spp"                               
+ [73] "Elephantopus.mollis"                             
+ [74] "FernInvasive.Grass"                              
+ [75] "Freycinetia.arborea"                             
+ [76] "Gahnia.beecheyi"                                 
+ [77] "Gahnia.vittensis"                                
+ [78] "Hydrangea.argua"                                 
+ [79] "Hydrangea.arguta"                                
+ [80] "IleAno"                                          
+ [81] "Invasive.Grass"                                  
+ [82] "invherb"                                         
+ [83] "invwood"                                         
+ [84] "Ipomea.spp"                                      
+ [85] "Kadua.spp"                                       
+ [86] "Leptecophylla.tameiameiae"                       
+ [87] "Leucaena.leucocephala"                           
+ [88] "Machaerina.angustifolia"                         
+ [89] "Machaerina.mariscoides"                          
+ [90] "MacMer"                                          
+ [91] "MarMar"                                          
+ [92] "Megathyrsus.maximus"                             
+ [93] "Melastoma.septemnervium"                         
+ [94] "Melinis.minutiflora"                             
+ [95] "Metrosideros.polymorpha"                         
+ [96] "Microlepia.strigosa."                            
+ [97] "Molassas"                                        
+ [98] "Morph3"                                          
+ [99] "Myrsine.lessertiana"                             
+[100] "MysteryFern"                                     
+[101] "NativeFern"                                      
+[102] "nativeherb"                                      
+[103] "nativewood"                                      
+[104] "Nephrolepis.spp"                                 
+[105] "Odontosoria.chinensis"                           
+[106] "Odontosoria.chinensis10"                         
+[107] "Oplismenus.hirtellus"                            
+[108] "Oplismenus.hirtellusGrass"                       
+[109] "Paederia.foetida"                                
+[110] "Palhinhaea.cernua"                               
+[111] "PasCon"                                          
+[112] "Passiflora.spp"                                  
+[113] "Peperomia.spp"                                   
+[114] "Perrottetia.sandwicensis"                        
+[115] "Phaius.tankervilleae"                            
+[116] "Phlebotium.aureum"                               
+[117] "Pipturus.albidus"                                
+[118] "Pipturus.ruber"                                  
+[119] "Pluchea.spp"                                     
+[120] "Polyscias.oahuensis"                             
+[121] "Psidium.cattleyanum"                             
+[122] "PsiGuava"                                        
+[123] "Psychotria.mariniana"                            
+[124] "Psychotria.spp"                                  
+[125] "Psychotria.spp."                                 
+[126] "RhySpp"                                          
+[127] "Rubus.argutus"                                   
+[128] "Sadleria.cyatheoides"                            
+[129] "Sadleria.spp"                                    
+[130] "Scaevola.gaudichaudiana"                         
+[131] "Scaevola.procera"                                
+[132] "Schinus.terebinthifolius"                        
+[133] "Selaginella.spp"                                 
+[134] "Stachytarphyta.cayennesnsis.cayennesnsistarphyta"
+[135] "Syzygium.sandwicense"                            
+[136] "Tectaria.sppSpp."                                
+[137] "Vaccinium.calycinum"                             
+[138] "Viola.wailenalenae"                              
+[139] "NA."                                             
+################
+Number of duplicated rows 
+[1] 0
+################
+summary 
+   ï..site          date.monitored      name.2019         ntbg.accession    
+ Length:430         Length:430         Length:430         Min.   :20160612  
+ Class :character   Class :character   Class :character   1st Qu.:20160753  
+ Mode  :character   Mode  :character   Mode  :character   Median :20160796  
+                                                          Mean   :20165726  
+                                                          3rd Qu.:20160804  
+                                                          Max.   :20200236  
+                                                                            
+ ntbg.plant.number   plt.date          gpslatdec          gpslongdec       
+ Min.   :  1.0     Length:430         Length:430         Length:430        
+ 1st Qu.: 50.0     Class :character   Class :character   Class :character  
+ Median :283.5     Mode  :character   Mode  :character   Mode  :character  
+ Mean   :294.1                                                             
+ 3rd Qu.:510.0                                                             
+ Max.   :801.0                                                             
+                                                                           
+ kpep.georef        founder_georef     survival.19          vigor.19        
+ Length:430         Length:430         Length:430         Length:430        
+ Class :character   Class :character   Class :character   Class :character  
+ Mode  :character   Mode  :character   Mode  :character   Mode  :character  
+                                                                            
+                                                                            
+                                                                            
+                                                                            
+  height.19         diameter.19        reproduction.19    survival.21       
+ Length:430         Length:430         Length:430         Length:430        
+ Class :character   Class :character   Class :character   Class :character  
+ Mode  :character   Mode  :character   Mode  :character   Mode  :character  
+                                                                            
+                                                                            
+                                                                            
+                                                                            
+   vigor.21           height.21       diameter.21    reproduction.21   
+ Length:430         Min.   :  7.10   Min.   :0.200   Length:430        
+ Class :character   1st Qu.: 39.00   1st Qu.:0.700   Class :character  
+ Mode  :character   Median : 61.00   Median :1.000   Mode  :character  
+                    Mean   : 68.94   Mean   :1.088                     
+                    3rd Qu.: 86.00   3rd Qu.:1.300                     
+                    Max.   :278.00   Max.   :3.600                     
+                    NA's   :1        NA's   :1                         
+   comments          canopy.cover    percent.native   understory.depth
+ Length:430         Min.   :  0.00   Min.   :  0.00   Min.   :0.0000  
+ Class :character   1st Qu.:  0.00   1st Qu.: 80.00   1st Qu.:0.2500  
+ Mode  :character   Median : 30.00   Median :100.00   Median :0.5000  
+                    Mean   : 29.07   Mean   : 83.63   Mean   :0.6943  
+                    3rd Qu.: 50.00   3rd Qu.:100.00   3rd Qu.:1.0000  
+                    Max.   :100.00   Max.   :100.00   Max.   :2.0000  
+                                     NA's   :174                      
+   species1         species1.percent   species2         species2.percent
+ Length:430         Min.   :  0.00   Length:430         Min.   : 0.00   
+ Class :character   1st Qu.: 20.00   Class :character   1st Qu.:10.00   
+ Mode  :character   Median : 40.00   Mode  :character   Median :20.00   
+                    Mean   : 43.06                      Mean   :20.74   
+                    3rd Qu.: 70.00                      3rd Qu.:30.00   
+                    Max.   :120.00                      Max.   :80.00   
+                                                        NA's   :6       
+   species3         species3.percent   species4         species4.percent
+ Length:430         Min.   : 10.00   Length:430         Min.   : 0.00   
+ Class :character   1st Qu.: 10.00   Class :character   1st Qu.:10.00   
+ Mode  :character   Median : 20.00   Mode  :character   Median :10.00   
+                    Mean   : 28.58                      Mean   :12.05   
+                    3rd Qu.: 20.00                      3rd Qu.:20.00   
+                    Max.   :100.00                      Max.   :70.00   
+                    NA's   :43                          NA's   :133     
+   species5         species5.percent     aspect         angle          
+ Length:430         Min.   :10.0     Min.   : 0.00   Length:430        
+ Class :character   1st Qu.:10.0     1st Qu.:10.00   Class :character  
+ Mode  :character   Median :10.0     Median :30.00   Mode  :character  
+                    Mean   :12.6     Mean   :28.68                     
+                    3rd Qu.:20.0     3rd Qu.:40.00                     
+                    Max.   :20.0     Max.   :80.00                     
+                    NA's   :334      NA's   :1                         
+ Ageratum.conyzoides Alyxia.stellata   Andropogon.spp    Andropogon.spp.  
+ Min.   : 0.00000    Min.   : 0.0000   Min.   : 0.0000   Min.   : 0.0000  
+ 1st Qu.: 0.00000    1st Qu.: 0.0000   1st Qu.: 0.0000   1st Qu.: 0.0000  
+ Median : 0.00000    Median : 0.0000   Median : 0.0000   Median : 0.0000  
+ Mean   : 0.09302    Mean   : 0.2326   Mean   : 0.5814   Mean   : 0.1163  
+ 3rd Qu.: 0.00000    3rd Qu.: 0.0000   3rd Qu.: 0.0000   3rd Qu.: 0.0000  
+ Max.   :20.00000    Max.   :20.0000   Max.   :50.0000   Max.   :20.0000  
+                                                                          
+ Andropogon.spp.s  Andropogon.spp.spp Antidesma.platyphyllum     AntSan        
+ Min.   : 0.0000   Min.   : 0.0000    Min.   : 0.0000        Min.   : 0.00000  
+ 1st Qu.: 0.0000   1st Qu.: 0.0000    1st Qu.: 0.0000        1st Qu.: 0.00000  
+ Median : 0.0000   Median : 0.0000    Median : 0.0000        Median : 0.00000  
+ Mean   : 0.1163   Mean   : 0.7209    Mean   : 0.3023        Mean   : 0.02326  
+ 3rd Qu.: 0.0000   3rd Qu.: 0.0000    3rd Qu.: 0.0000        3rd Qu.: 0.00000  
+ Max.   :50.0000   Max.   :50.0000    Max.   :40.0000        Max.   :10.00000  
+                                                                               
+ AspleniumSpp.          Bidens           Bidens.spp       Bidens.valida     
+ Min.   : 0.00000   Min.   : 0.00000   Min.   : 0.00000   Min.   : 0.00000  
+ 1st Qu.: 0.00000   1st Qu.: 0.00000   1st Qu.: 0.00000   1st Qu.: 0.00000  
+ Median : 0.00000   Median : 0.00000   Median : 0.00000   Median : 0.00000  
+ Mean   : 0.04651   Mean   : 0.04651   Mean   : 0.04651   Mean   : 0.04651  
+ 3rd Qu.: 0.00000   3rd Qu.: 0.00000   3rd Qu.: 0.00000   3rd Qu.: 0.00000  
+ Max.   :20.00000   Max.   :10.00000   Max.   :10.00000   Max.   :10.00000  
+                                                                            
+ Blechnum.appendiculatum Christella.dentata Cibotium.glaucum  Clidemia.hirta  
+ Min.   : 0.00           Min.   : 0.00      Min.   : 0.0000   Min.   : 0.000  
+ 1st Qu.: 0.00           1st Qu.: 0.00      1st Qu.: 0.0000   1st Qu.: 0.000  
+ Median : 0.00           Median : 0.00      Median : 0.0000   Median : 0.000  
+ Mean   : 1.93           Mean   : 1.14      Mean   : 0.8139   Mean   : 7.558  
+ 3rd Qu.: 0.00           3rd Qu.: 0.00      3rd Qu.: 0.0000   3rd Qu.:10.000  
+ Max.   :80.00           Max.   :30.00      Max.   :70.0000   Max.   :80.000  
+                                                                              
+ Cordyline.fruticosa     Cyanea          Cyanea.fissa        Cyanea.spp      
+ Min.   : 0.00000    Min.   : 0.00000   Min.   : 0.00000   Min.   : 0.00000  
+ 1st Qu.: 0.00000    1st Qu.: 0.00000   1st Qu.: 0.00000   1st Qu.: 0.00000  
+ Median : 0.00000    Median : 0.00000   Median : 0.00000   Median : 0.00000  
+ Mean   : 0.02326    Mean   : 0.02326   Mean   : 0.04651   Mean   : 0.02326  
+ 3rd Qu.: 0.00000    3rd Qu.: 0.00000   3rd Qu.: 0.00000   3rd Qu.: 0.00000  
+ Max.   :10.00000    Max.   :10.00000   Max.   :20.00000   Max.   :10.00000  
+                                                                             
+    CyaneaSp          Cyclosorus       CyclosorusSp       Cyperus.spp      
+ Min.   : 0.00000   Min.   : 0.0000   Min.   : 0.00000   Min.   : 0.00000  
+ 1st Qu.: 0.00000   1st Qu.: 0.0000   1st Qu.: 0.00000   1st Qu.: 0.00000  
+ Median : 0.00000   Median : 0.0000   Median : 0.00000   Median : 0.00000  
+ Mean   : 0.02326   Mean   : 0.1163   Mean   : 0.02326   Mean   : 0.09302  
+ 3rd Qu.: 0.00000   3rd Qu.: 0.0000   3rd Qu.: 0.00000   3rd Qu.: 0.00000  
+ Max.   :10.00000   Max.   :50.0000   Max.   :10.00000   Max.   :20.00000  
+                                                                           
+ Cyrtandra.spp          DepSan         Dianella.sandwicensis Dicranopteris.linearis
+ Min.   : 0.00000   Min.   : 0.00000   Min.   : 0.00000      Min.   :  0.00        
+ 1st Qu.: 0.00000   1st Qu.: 0.00000   1st Qu.: 0.00000      1st Qu.:  0.00        
+ Median : 0.00000   Median : 0.00000   Median : 0.00000      Median :  0.00        
+ Mean   : 0.06977   Mean   : 0.02326   Mean   : 0.02326      Mean   : 21.16        
+ 3rd Qu.: 0.00000   3rd Qu.: 0.00000   3rd Qu.: 0.00000      3rd Qu.: 40.00        
+ Max.   :10.00000   Max.   :10.00000   Max.   :10.00000      Max.   :100.00        
+                                                                                   
+ Diospyrus.sand     Diplazium.sandwichianum Diploterygium.pinnatum  Doryopteris      
+ Min.   : 0.00000   Min.   : 0.0000         Min.   : 0.000         Min.   : 0.00000  
+ 1st Qu.: 0.00000   1st Qu.: 0.0000         1st Qu.: 0.000         1st Qu.: 0.00000  
+ Median : 0.00000   Median : 0.0000         Median : 0.000         Median : 0.00000  
+ Mean   : 0.02326   Mean   : 0.6977         Mean   : 4.721         Mean   : 0.04651  
+ 3rd Qu.: 0.00000   3rd Qu.: 0.0000         3rd Qu.: 0.000         3rd Qu.: 0.00000  
+ Max.   :10.00000   Max.   :50.0000         Max.   :80.000         Max.   :20.00000  
+                                                                                     
+ Dryopteris.spp      Dubautia.spp      Dubautia.spp.laxa  Elaphoglossum.spp
+ Min.   : 0.00000   Min.   : 0.00000   Min.   : 0.00000   Min.   : 0.0000  
+ 1st Qu.: 0.00000   1st Qu.: 0.00000   1st Qu.: 0.00000   1st Qu.: 0.0000  
+ Median : 0.00000   Median : 0.00000   Median : 0.00000   Median : 0.0000  
+ Mean   : 0.09302   Mean   : 0.04651   Mean   : 0.04651   Mean   : 0.1163  
+ 3rd Qu.: 0.00000   3rd Qu.: 0.00000   3rd Qu.: 0.00000   3rd Qu.: 0.0000  
+ Max.   :30.00000   Max.   :10.00000   Max.   :20.00000   Max.   :20.0000  
+                                                                           
+ Elephantopus.mollis FernInvasive.Grass Freycinetia.arborea Gahnia.beecheyi  
+ Min.   : 0.0000     Min.   : 0.00000   Min.   : 0.0000     Min.   : 0.0000  
+ 1st Qu.: 0.0000     1st Qu.: 0.00000   1st Qu.: 0.0000     1st Qu.: 0.0000  
+ Median : 0.0000     Median : 0.00000   Median : 0.0000     Median : 0.0000  
+ Mean   : 0.1163     Mean   : 0.06977   Mean   : 0.5814     Mean   : 0.1163  
+ 3rd Qu.: 0.0000     3rd Qu.: 0.00000   3rd Qu.: 0.0000     3rd Qu.: 0.0000  
+ Max.   :20.0000     Max.   :30.00000   Max.   :60.0000     Max.   :40.0000  
+                                                                             
+ Gahnia.vittensis   Hydrangea.argua    Hydrangea.arguta      IleAno        
+ Min.   : 0.00000   Min.   : 0.00000   Min.   : 0.0000   Min.   : 0.00000  
+ 1st Qu.: 0.00000   1st Qu.: 0.00000   1st Qu.: 0.0000   1st Qu.: 0.00000  
+ Median : 0.00000   Median : 0.00000   Median : 0.0000   Median : 0.00000  
+ Mean   : 0.04651   Mean   : 0.02326   Mean   : 0.1163   Mean   : 0.02326  
+ 3rd Qu.: 0.00000   3rd Qu.: 0.00000   3rd Qu.: 0.0000   3rd Qu.: 0.00000  
+ Max.   :20.00000   Max.   :10.00000   Max.   :20.0000   Max.   :10.00000  
+                                                                           
+ Invasive.Grass     invherb          invwood          Ipomea.spp      
+ Min.   : 0.00   Min.   :  0.00   Min.   : 0.0000   Min.   : 0.00000  
+ 1st Qu.: 0.00   1st Qu.:  0.00   1st Qu.: 0.0000   1st Qu.: 0.00000  
+ Median : 0.00   Median :  0.00   Median : 0.0000   Median : 0.00000  
+ Mean   :13.59   Mean   : 13.65   Mean   : 0.2098   Mean   : 0.02326  
+ 3rd Qu.:20.00   3rd Qu.:  0.00   3rd Qu.: 0.0000   3rd Qu.: 0.00000  
+ Max.   :90.00   Max.   :100.00   Max.   :20.0000   Max.   :10.00000  
+ NA's   :1                        NA's   :1                           
+   Kadua.spp        Leptecophylla.tameiameiae Leucaena.leucocephala
+ Min.   : 0.00000   Min.   : 0.00000          Min.   : 0.0000      
+ 1st Qu.: 0.00000   1st Qu.: 0.00000          1st Qu.: 0.0000      
+ Median : 0.00000   Median : 0.00000          Median : 0.0000      
+ Mean   : 0.06977   Mean   : 0.04651          Mean   : 0.1628      
+ 3rd Qu.: 0.00000   3rd Qu.: 0.00000          3rd Qu.: 0.0000      
+ Max.   :10.00000   Max.   :20.00000          Max.   :20.0000      
+                                                                   
+ Machaerina.angustifolia Machaerina.mariscoides     MacMer             MarMar        
+ Min.   : 0.000          Min.   : 0.000         Min.   : 0.00000   Min.   : 0.00000  
+ 1st Qu.: 0.000          1st Qu.: 0.000         1st Qu.: 0.00000   1st Qu.: 0.00000  
+ Median : 0.000          Median : 0.000         Median : 0.00000   Median : 0.00000  
+ Mean   : 2.884          Mean   : 1.023         Mean   : 0.02326   Mean   : 0.04651  
+ 3rd Qu.: 0.000          3rd Qu.: 0.000         3rd Qu.: 0.00000   3rd Qu.: 0.00000  
+ Max.   :80.000          Max.   :30.000         Max.   :10.00000   Max.   :20.00000  
+                                                                                     
+ Megathyrsus.maximus Melastoma.septemnervium Melinis.minutiflora
+ Min.   : 0.000      Min.   : 0.000          Min.   :  0.000    
+ 1st Qu.: 0.000      1st Qu.: 0.000          1st Qu.:  0.000    
+ Median : 0.000      Median : 0.000          Median :  0.000    
+ Mean   : 1.535      Mean   : 2.419          Mean   :  1.721    
+ 3rd Qu.: 0.000      3rd Qu.: 0.000          3rd Qu.:  0.000    
+ Max.   :90.000      Max.   :70.000          Max.   :100.000    
+                                                                
+ Metrosideros.polymorpha Microlepia.strigosa.    Molassas          Morph3       
+ Min.   : 0.000          Min.   : 0.0000      Min.   : 0.000   Min.   : 0.0000  
+ 1st Qu.: 0.000          1st Qu.: 0.0000      1st Qu.: 0.000   1st Qu.: 0.0000  
+ Median : 0.000          Median : 0.0000      Median : 0.000   Median : 0.0000  
+ Mean   : 3.907          Mean   : 0.4419      Mean   : 1.256   Mean   : 0.3023  
+ 3rd Qu.: 0.000          3rd Qu.: 0.0000      3rd Qu.: 0.000   3rd Qu.: 0.0000  
+ Max.   :60.000          Max.   :50.0000      Max.   :90.000   Max.   :30.0000  
+                                                                                
+ Myrsine.lessertiana  MysteryFern         NativeFern         nativeherb     
+ Min.   : 0.00000    Min.   : 0.00000   Min.   : 0.00000   Min.   : 0.0000  
+ 1st Qu.: 0.00000    1st Qu.: 0.00000   1st Qu.: 0.00000   1st Qu.: 0.0000  
+ Median : 0.00000    Median : 0.00000   Median : 0.00000   Median : 0.0000  
+ Mean   : 0.06977    Mean   : 0.04651   Mean   : 0.02326   Mean   : 0.1744  
+ 3rd Qu.: 0.00000    3rd Qu.: 0.00000   3rd Qu.: 0.00000   3rd Qu.: 0.0000  
+ Max.   :30.00000    Max.   :20.00000   Max.   :10.00000   Max.   :30.0000  
+                                                                            
+   nativewood     Nephrolepis.spp Odontosoria.chinensis Odontosoria.chinensis10
+ Min.   : 0.000   Min.   : 0.00   Min.   : 0.000        Min.   :0              
+ 1st Qu.: 0.000   1st Qu.: 0.00   1st Qu.: 0.000        1st Qu.:0              
+ Median : 0.000   Median : 0.00   Median : 0.000        Median :0              
+ Mean   : 1.337   Mean   : 1.93   Mean   : 4.326        Mean   :0              
+ 3rd Qu.: 0.000   3rd Qu.: 0.00   3rd Qu.: 0.000        3rd Qu.:0              
+ Max.   :60.000   Max.   :50.00   Max.   :80.000        Max.   :0              
+                                                        NA's   :1              
+ Oplismenus.hirtellus Oplismenus.hirtellusGrass Paederia.foetida  Palhinhaea.cernua
+ Min.   : 0.0000      Min.   : 0.0000           Min.   : 0.0000   Min.   : 0.0000  
+ 1st Qu.: 0.0000      1st Qu.: 0.0000           1st Qu.: 0.0000   1st Qu.: 0.0000  
+ Median : 0.0000      Median : 0.0000           Median : 0.0000   Median : 0.0000  
+ Mean   : 0.3488      Mean   : 0.2326           Mean   : 0.6279   Mean   : 0.1163  
+ 3rd Qu.: 0.0000      3rd Qu.: 0.0000           3rd Qu.: 0.0000   3rd Qu.: 0.0000  
+ Max.   :30.0000      Max.   :80.0000           Max.   :30.0000   Max.   :50.0000  
+                                                                                   
+     PasCon         Passiflora.spp     Peperomia.spp      Perrottetia.sandwicensis
+ Min.   : 0.00000   Min.   : 0.00000   Min.   : 0.00000   Min.   : 0.0000         
+ 1st Qu.: 0.00000   1st Qu.: 0.00000   1st Qu.: 0.00000   1st Qu.: 0.0000         
+ Median : 0.00000   Median : 0.00000   Median : 0.00000   Median : 0.0000         
+ Mean   : 0.02326   Mean   : 0.06977   Mean   : 0.06977   Mean   : 0.3023         
+ 3rd Qu.: 0.00000   3rd Qu.: 0.00000   3rd Qu.: 0.00000   3rd Qu.: 0.0000         
+ Max.   :10.00000   Max.   :10.00000   Max.   :10.00000   Max.   :30.0000         
+                                                                                  
+ Phaius.tankervilleae Phlebotium.aureum  Pipturus.albidus   Pipturus.ruber    
+ Min.   : 0.000       Min.   : 0.00000   Min.   :  0.0000   Min.   : 0.00000  
+ 1st Qu.: 0.000       1st Qu.: 0.00000   1st Qu.:  0.0000   1st Qu.: 0.00000  
+ Median : 0.000       Median : 0.00000   Median :  0.0000   Median : 0.00000  
+ Mean   : 0.186       Mean   : 0.02326   Mean   :  0.4651   Mean   : 0.02326  
+ 3rd Qu.: 0.000       3rd Qu.: 0.00000   3rd Qu.:  0.0000   3rd Qu.: 0.00000  
+ Max.   :20.000       Max.   :10.00000   Max.   :120.0000   Max.   :10.00000  
+                                                                              
+  Pluchea.spp       Polyscias.oahuensis Psidium.cattleyanum    PsiGuava
+ Min.   : 0.00000   Min.   : 0.00000    Min.   : 0.0000     Min.   :0  
+ 1st Qu.: 0.00000   1st Qu.: 0.00000    1st Qu.: 0.0000     1st Qu.:0  
+ Median : 0.00000   Median : 0.00000    Median : 0.0000     Median :0  
+ Mean   : 0.02326   Mean   : 0.06977    Mean   : 0.3023     Mean   :0  
+ 3rd Qu.: 0.00000   3rd Qu.: 0.00000    3rd Qu.: 0.0000     3rd Qu.:0  
+ Max.   :10.00000   Max.   :30.00000    Max.   :20.0000     Max.   :0  
+                                                            NA's   :1  
+ Psychotria.mariniana Psychotria.spp    Psychotria.spp.        RhySpp        
+ Min.   : 0.0000      Min.   : 0.0000   Min.   : 0.00000   Min.   : 0.00000  
+ 1st Qu.: 0.0000      1st Qu.: 0.0000   1st Qu.: 0.00000   1st Qu.: 0.00000  
+ Median : 0.0000      Median : 0.0000   Median : 0.00000   Median : 0.00000  
+ Mean   : 0.3256      Mean   : 0.4419   Mean   : 0.04651   Mean   : 0.02326  
+ 3rd Qu.: 0.0000      3rd Qu.: 0.0000   3rd Qu.: 0.00000   3rd Qu.: 0.00000  
+ Max.   :20.0000      Max.   :20.0000   Max.   :20.00000   Max.   :10.00000  
+                                                                             
+ Rubus.argutus     Sadleria.cyatheoides  Sadleria.spp     Scaevola.gaudichaudiana
+ Min.   : 0.0000   Min.   : 0.000       Min.   : 0.0000   Min.   : 0.0000        
+ 1st Qu.: 0.0000   1st Qu.: 0.000       1st Qu.: 0.0000   1st Qu.: 0.0000        
+ Median : 0.0000   Median : 0.000       Median : 0.0000   Median : 0.0000        
+ Mean   : 0.7442   Mean   : 1.093       Mean   : 0.3256   Mean   : 0.1163        
+ 3rd Qu.: 0.0000   3rd Qu.: 0.000       3rd Qu.: 0.0000   3rd Qu.: 0.0000        
+ Max.   :30.0000   Max.   :30.000       Max.   :30.0000   Max.   :30.0000        
+                                                                                 
+ Scaevola.procera   Schinus.terebinthifolius Selaginella.spp  
+ Min.   : 0.00000   Min.   : 0.00000         Min.   : 0.0000  
+ 1st Qu.: 0.00000   1st Qu.: 0.00000         1st Qu.: 0.0000  
+ Median : 0.00000   Median : 0.00000         Median : 0.0000  
+ Mean   : 0.04651   Mean   : 0.04651         Mean   : 0.1395  
+ 3rd Qu.: 0.00000   3rd Qu.: 0.00000         3rd Qu.: 0.0000  
+ Max.   :20.00000   Max.   :20.00000         Max.   :20.0000  
+                                                              
+ Stachytarphyta.cayennesnsis.cayennesnsistarphyta Syzygium.sandwicense
+ Min.   : 0.00000                                 Min.   : 0.0000     
+ 1st Qu.: 0.00000                                 1st Qu.: 0.0000     
+ Median : 0.00000                                 Median : 0.0000     
+ Mean   : 0.04651                                 Mean   : 0.4186     
+ 3rd Qu.: 0.00000                                 3rd Qu.: 0.0000     
+ Max.   :20.00000                                 Max.   :40.0000     
+                                                                      
+ Tectaria.sppSpp.   Vaccinium.calycinum Viola.wailenalenae      NA.     
+ Min.   : 0.00000   Min.   : 0.00000    Min.   : 0.00000   Min.   :0    
+ 1st Qu.: 0.00000   1st Qu.: 0.00000    1st Qu.: 0.00000   1st Qu.:0    
+ Median : 0.00000   Median : 0.00000    Median : 0.00000   Median :0    
+ Mean   : 0.02326   Mean   : 0.06977    Mean   : 0.04651   Mean   :0    
+ 3rd Qu.: 0.00000   3rd Qu.: 0.00000    3rd Qu.: 0.00000   3rd Qu.:0    
+ Max.   :10.00000   Max.   :20.00000    Max.   :10.00000   Max.   :0    
+                                                           NA's   :332  
+################
+na occurrence 
+# A tibble: 139 x 3
+   col_name           cnt  pcnt
+   <chr>            <int> <dbl>
+ 1 species5.percent   334 77.7 
+ 2 species5           332 77.2 
+ 3 NA.                332 77.2 
+ 4 comments           247 57.4 
+ 5 percent.native     174 40.5 
+ 6 species4.percent   133 30.9 
+ 7 species4           132 30.7 
+ 8 species3.percent    43 10   
+ 9 species3            42  9.77
+10 gpslatdec           23  5.35
+# ... with 129 more rows
+################
+numeric summaries 
+# A tibble: 116 x 10
+   col_name          min      q1  median    mean     q3    max      sd pcnt_na hist    
+   <chr>           <dbl>   <dbl>   <dbl>   <dbl>  <dbl>  <dbl>   <dbl>   <dbl> <named >
+ 1 ntbg.accessi~ 2.02e+7 2.02e+7 2.02e+7 2.02e+7 2.02e7 2.02e7 1.28e+4   0     <tibble>
+ 2 ntbg.plant.n~ 1   e+0 5   e+1 2.84e+2 2.94e+2 5.1 e2 8.01e2 2.39e+2   0     <tibble>
+ 3 height.21     7.1 e+0 3.9 e+1 6.1 e+1 6.89e+1 8.6 e1 2.78e2 4.08e+1   0.233 <tibble>
+ 4 diameter.21   2   e-1 7   e-1 1   e+0 1.09e+0 1.3 e0 3.6 e0 5.57e-1   0.233 <tibble>
+ 5 canopy.cover  0       0       3   e+1 2.91e+1 5   e1 1   e2 2.96e+1   0     <tibble>
+ 6 percent.nati~ 0       8   e+1 1   e+2 8.36e+1 1   e2 1   e2 2.77e+1  40.5   <tibble>
+ 7 understory.d~ 0       2.5 e-1 5   e-1 6.94e-1 1   e0 2   e0 4.45e-1   0     <tibble>
+ 8 species1.per~ 0       2   e+1 4   e+1 4.31e+1 7   e1 1.2 e2 2.86e+1   0     <tibble>
+ 9 species2.per~ 0       1   e+1 2   e+1 2.07e+1 3   e1 8   e1 1.39e+1   1.40  <tibble>
+10 species3.per~ 1   e+1 1   e+1 2   e+1 2.86e+1 2   e1 1   e2 3.04e+1  10     <tibble>
+# ... with 106 more rows

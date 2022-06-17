@@ -8,7 +8,7 @@
 #script config
 #important! add your repo path here so r knows where are the repo files!
 repo_path1="D:/projects/2021_ntbg/polbis_analysis/"
-repo_path2=NA #JULIA, place your repo directory here 
+repo_path2="~/Desktop/Polysicas Kauai 2022/polbis.analysis/" #JULIA, place your repo directory here 
 repo_path3=NA #JORDAN, place your repo directory here 
 REPO_dirs=c(repo_path1, repo_path2, repo_path3) 
 repo_dir=REPO_dirs[min(which(dir.exists(REPO_dirs)))] 
@@ -21,6 +21,7 @@ dir.create(output_dir, showWarnings = F, recursive = T)
 ##################
 #under the hood
 csv_files=list.files(path=data_dir, pattern=".csv$", recursive = T, full.names = F)
+csv_files=csv_files[grep(pattern = "processed", x = csv_files)]
 
 sink.reset <- function(){
   for(i in seq_len(sink.number())){

@@ -7,9 +7,9 @@ repo_dir=REPO_dirs[min(which(dir.exists(REPO_dirs)))]
 setwd(repo_dir)
 
 #Bring in polbis data from github folder 
-polbis.data <- read.csv("data/PolBis.Data.Living.22.csv")
+polbis.data <- read.csv("data/processed_PolBis.Data.Living.22.csv")
 polbis.data <- as.data.frame(polbis.data)
-polbis.data <- subset(polbis.data[1:430,])
+#polbis.data <- subset(polbis.data[1:430,])
 str(polbis.data)
 
 #Histograms of environmental variables
