@@ -1,5 +1,13 @@
+#important! add your repo path here so r knows where are the repo files!
+repo_path1="D:/projects/2021_ntbg/polbis_analysis/"
+repo_path2="~/Desktop/Polysicas Kauai 2022/" #JULIA, place your repo directory here 
+repo_path3=NA #JORDAN, place your repo directory here 
+REPO_dirs=c(repo_path1, repo_path2, repo_path3) 
+repo_dir=REPO_dirs[min(which(dir.exists(REPO_dirs)))] 
+setwd(repo_dir)
+
 #Bring in polbis data from github folder 
-polbis.data <- read.csv("~/Desktop/Polysicas Kauai 2022/polbis.analysis/data/PolBis.Data.Living.22.csv")
+polbis.data <- read.csv("polbis.analysis/data/PolBis.Data.Living.22.csv")
 polbis.data <- as.data.frame(polbis.data)
 polbis.data <- subset(polbis.data[1:430,])
 str(polbis.data)
