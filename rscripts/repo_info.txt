@@ -1,0 +1,14 @@
+Here is a quick description of the scripts and analysis included in this project folder:
+
+Step 1: Data pre processing
+preprocess_csv_data_including_sp_cover_data.r
+This script includes all data pre processing steps before any analysis. Right now it mostly removes extra blank rows and processes the species data into individual species cover columns.
+
+Step 2: Data exploration.
+Scripts below (should) explore data for outliers, factor values, distributions, correlations, etc.
+explore_tabular_csv_data.r
+
+data.exploration.R
+
+Step 3: Preliminary analysis:
+TBD
