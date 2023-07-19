@@ -5,7 +5,7 @@
 #the csv files are located.
 
 ##################
-#script config
+#script configuration
 #important! add your repo path here so r knows where are the repo files!
 repo_path1="D:/projects/2021_ntbg/polbis_analysis/"
 repo_path2="~/Desktop/Polysicas Kauai 2022/polbis.analysis/" #JULIA, place your repo directory here 
