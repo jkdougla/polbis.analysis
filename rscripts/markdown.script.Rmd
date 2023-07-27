@@ -1,0 +1,96 @@
+---
+title: "PolBis Visuals to share"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r}
+library(ggplot2)
+library(ggcorrplot)
+library(qwraps2) 
+library('gtsummary')
+library('dplyr')
+library('vegan')
+library('gt')
+library('tidyverse')
+library('ggpubr')
+
+polbis.data <- read.csv("data/processed_PolBis.Data.Living.22.csv")
+
+#2021 boxplot heights and diameter across sites 
+boxplot.3 <- ggplot(data=polbis.data, aes(x=site, y=X21.height)) + geom_boxplot() + theme(axis.text.x = element_text(angle = 90)) 
+boxplot.4 <- ggplot(data=polbis.data, aes(x=site, y=X21.diameter)) + geom_boxplot() + theme(axis.text.x = element_text(angle = 90))
+
+ggarrange(boxplot.3, boxplot.4, nrow=1,ncol=2)
+
+```
+```{r}
+#Change (growth) in height and diameter across sites 
+boxplot1 <- ggplot(data=polbis.data, aes(x=site, y=change.height)) + geom_boxplot() + theme(axis.text.x = element_text(angle = 90)) 
+boxplot2 <- ggplot(data=polbis.data, aes(x=site, y=change.diam)) + geom_boxplot() + theme(axis.text.x = element_text(angle = 90))
+
+ggarrange(boxplot1, boxplot2, nrow=1,ncol=2,widths=c(,2))
+```
+```{r}
+table(polbis.data$site)
+ggplot(data=polbis.data, aes(x=site)) + geom_bar() + theme(axis.text.x = element_text(angle = 90))
+```
+
+```{r}
+table(polbis.data$founder.georef)
+ggplot(data=polbis.data, aes(x=founder.georef)) + geom_bar() + theme(axis.text.x = element_text(angle = 90))
+```
+
+```{r}
+#Plot of founders represented in living reintroductions across sites 
+ggplot(data=polbis.data, aes(x=site, fill=founder.georef)) + geom_bar() + theme(axis.text.x = element_text(angle = 90))
+```
+
+```{r}
+#subset polbis data for only numeric variables 
+polbis.cont.variables <- subset(polbis.data, select=c('X19.height','X19.diameter','X21.height','X21.diameter', 'aspect', 'canopy.cover', 'percent.native'))
+str(polbis.cont.variables)
+#correlation matrix of continuous variables
+rquery.cormat(polbis.cont.variables)
+corrplot(rquery.cormat(polbis.cont.variables))
+```
+
+```{r}
+polbis.environmental.variables <- subset(polbis.data, select=c(site,canopy.cover, percent.native, slope.angle,understory.depth,
+                                                               naturalized.herbaceous, native.woody, naturalized.woody, naturalized.poaceae, uluhe)) #subsetting for the env.measured
+
+polbis.environmental.variables["percent.native"][is.na(polbis.environmental.variables["percent.native"])] <- 0 #removing NAs from data, replacing 0 for NA for percent.native, because some sites have no canopy
+polbis.environmental.variables <- na.omit(polbis.environmental.variables) #removing another few odd NAs in there
+
+str(polbis.environmental.variables)
+
+pca.polbis.dataset <- subset(polbis.environmental.variables, select=c(canopy.cover, percent.native, slope.angle,understory.depth,
+                                                                      naturalized.herbaceous, native.woody, naturalized.woody, naturalized.poaceae, uluhe))#removing site as a categorical variable
+pca.polbis.dataset.scaled <- as.data.frame(scale(pca.polbis.dataset))#scaling it
+
+rda.polbis.sites <- rda(pca.polbis.dataset.scaled)
+biplot(rda.polbis.sites)
+points(rda.polbis.sites, disp="sites", pch=20, col="green", select=polbis.environmental.variables$site=="Nounou", cex=1.3)
+points(rda.polbis.sites, disp="sites", pch=20, col="2", select=polbis.environmental.variables$site=="LowerLimahuli", cex=1.3)
+points(rda.polbis.sites, disp="sites", pch=20, col="4", select=polbis.environmental.variables$site=="Makaleha", cex=1.3)
+points(rda.polbis.sites, disp="sites", pch=20, col="5", select=polbis.environmental.variables$site=="McBryde", cex=1.3)
+points(rda.polbis.sites, disp="sites", pch=20, col="6", select=polbis.environmental.variables$site=="UpperLimahuli", cex=1.3)
+points(rda.polbis.sites, disp="sites", pch=20, col="dark green", select=polbis.environmental.variables$site=="HaupuSummit", cex=1.3)
+points(rda.polbis.sites, disp="sites", pch=20, col="8", select=polbis.environmental.variables$site=="Kanaele", cex=1.3)
+points(rda.polbis.sites, disp="sites", pch=20, col= "gold", select=polbis.environmental.variables$site=="Laauhihaihai", cex=1.3)
+points(rda.polbis.sites, disp="sites", pch=20, col="10", select=polbis.environmental.variables$site=="PuuKolo", cex=1.3)
+points(rda.polbis.sites, disp="sites", pch=20, col="11", select=polbis.environmental.variables$site=="LowerHaupu", cex=1.3)
+points(rda.polbis.sites, disp="sites", pch=20, col="12", select=polbis.environmental.variables$site=="BlueHole", cex=1.3)
+
+text(rda.polbis.sites, display="species", col="black", cex=1, pos=3, offset=.5)
+
+legend("topright", col = c("green",2,4,5,6,"dark green",8,"gold",10,11,12), pch = 16,
+       legend = c("Nounou", "LowerLimahuli","Makaleha","McBryde","UpperLimahuli","HaupuSummit","Kanaele",
+                  "Laauhihaihai","PuuKolo","LowerHaupu","BlueHole"))
+```
+
