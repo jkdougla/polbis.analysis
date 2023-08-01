@@ -1,0 +1,8 @@
+First create a terra vector file using process_coordinates.r
+ 
+For mean climate data from http://climate.geography.hawaii.edu/interactivemap.html
+Then use template r code to extract the data
+
+For monthly raster data extraction:
+processing_daily_HCDP_data.r is a script to clean up the daily/monthly raster files downloaded from hcdp
+extract_rasters_timeseries.r then can be adapted to extract data from the monthly files
