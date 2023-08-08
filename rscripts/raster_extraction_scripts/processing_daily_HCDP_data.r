@@ -4,9 +4,13 @@
 #created by Lucas Fortini
 
 #config params
-wd="D:/data/temp_folder/downloaded/mean/" #where are the original rasters?
-setwd(wd)
-output_dir="D:/data/temp_folder/processed/tmean/" #where to save rasters?
+
+repo_path1="D:/projects/2021_ntbg/polbis_analysis/"
+repo_path2="~/Desktop/ohe.mauka/Polyscias Kauai 2022/polbis.analysis/data/climate.rasters/"
+REPO_dirs=c(repo_path1, repo_path2) 
+repo_dir=REPO_dirs[min(which(dir.exists(REPO_dirs)))] 
+setwd(repo_dir)
+output_dir="D:/data/climate.rasters/" #where to save rasters?
 overwrite_results=F #redo process/ overwrite rasters?
 
 #under the hood

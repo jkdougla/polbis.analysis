@@ -1,27 +1,38 @@
 # Load the library
+install.packages('terra')
+install.packages('rgdal')
+install.packages('maptools')
+install.packages("rgeos")
 library(terra)
+library(dplyr)
+library(rgdal)
+library('sp')
+library('maptools')
+
+repo_path1="D:/projects/2021_ntbg/polbis_analysis/"
+repo_path2="~/Desktop/ohe.mauka/Polyscias Kauai 2022/polbis.analysis/" #JULIA, place your repo directory here 
+REPO_dirs=c(repo_path1, repo_path2) 
+repo_dir=REPO_dirs[min(which(dir.exists(REPO_dirs)))] 
+setwd(repo_dir)
+
+#Bring in polbis data from github folder 
+polbis.data.bysite <- read.csv("data/polbis.data.bysite.csv")
+polbis.data.bysite <- as.data.frame(polbis.data.bysite)
+str(polbis.data.bysite)
 
 # Create a data frame with lat and lon columns
-df <- data.frame(
-  lat = c(45.5017, 51.5074, 40.7128),
-  lon = c(-73.5673, -0.1278, -74.0060),
-  location = c("Montreal", "London", "New York")
-)
+site.latlong <- polbis.data.bysite %>% select(gpslatdec, gpslongdec)
+site.latlong <- subset(site.latlong[2:12,])
+str(site.latlong)
 
-print(df)
-#        lat      lon location
-# 1  45.5017 -73.5673 Montreal
-# 2  51.5074  -0.1278   London
-# 3  40.7128 -74.0060 New York
+print(site.latlong)
 
 # Convert the data frame to a SpatVector
-v <- vect(df)
-
+v <- vect(site.latlong, geom = c("gpslongdec", "gpslatdec"))
 # Set the CRS if you know it (e.g., WGS84)
-crs(v) <- "EPSG:4326"
+crs(v) <- "WGS84"
 
 #once vector file is created, extract the values from raster
-
 #create a stack with all rasters
 file_names=c()
 raster_stack=rast(file_names)
