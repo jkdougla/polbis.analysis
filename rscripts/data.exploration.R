@@ -52,7 +52,6 @@ hist(polbis.data$percent.native)
 hist(polbis.data$canopy.cover)
 
 #Histograms and summaries of 2021 polbis measurements, response variables
-dev.off()
 hist(polbis.data$X21.height)
 hist(polbis.data$X21.diameter, breaks=20)
 hist(polbis.data$change.diam)
@@ -164,8 +163,6 @@ ggplot(polbis.data, aes(x =site, fill=X21.vigor)) + geom_bar(color = "black", po
                                                        x = "Reintroduction Site",
                                                        y = "Proportion of population",
                                                        fill = "Vigor (2021)")
-
-
 #potential code to organize based on value 
 #polbis.data %>%
 #  gather(X21.vigor, value, poor:healthy) %>% 
@@ -381,8 +378,12 @@ ggplot(data=polbis.data2, aes(x=genetic.group, y=X21.diameter)) + geom_boxplot()
   ggtitle("Variation in PolBis diameter (cm) across genetic groups")
 
 #ANOVA, two factor site and genetic grouping
-founder.site.anova.height <- aov(X21.height~site*genetic.group, data=polbis.data2)
+polbis.data3 <- subset(polbis.data, !(site %in% c("Kanaele", "Nounou","LowerLimahuli", 
+                                                  "Laauhihaihai","PuuKolo","McBryde","Makaleha")))
+str(polbis.data3$site)
+founder.site.anova.height <- aov(X21.diameter~site+genetic.group, data=polbis.data3)
 summary(founder.site.anova.height)
+
 TukeyHSD(founder.site.anova.height) #no apparent significance of the genetic groupings when paired with site?
 
 founder.site.anova.diam <- aov(X21.diameter~site*genetic.group, data=polbis.data2)

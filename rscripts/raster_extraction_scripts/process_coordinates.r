@@ -1,7 +1,7 @@
 wd="D:/projects/2021_ntbg/"
 setwd(wd)
-site_DF=read.csv("data/Site Level GPS Points2.csv")
-xy=site_DF[,c(1:2)]
+site_DF=read.csv("data/polbis.data.bysite.csv")
+xy=site_DF[2:12,c(2:3)]
 plot(xy) #spans two projections (zone 4 and 5)
 
 

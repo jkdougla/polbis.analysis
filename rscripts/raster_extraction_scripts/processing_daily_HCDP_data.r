@@ -3,8 +3,6 @@
 #as integer format, which drastically reduces storage requirements, and consequently ram requirements when using the data
 #created by Lucas Fortini
 
-#config params
-
 repo_path1="D:/projects/2021_ntbg/polbis_analysis/"
 repo_path2="~/Desktop/ohe.mauka/Polyscias Kauai 2022/polbis.analysis/data/climate.rasters/"
 REPO_dirs=c(repo_path1, repo_path2) 

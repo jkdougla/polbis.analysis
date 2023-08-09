@@ -19,18 +19,19 @@ setwd(repo_dir)
 polbis.data.bysite <- read.csv("data/polbis.data.bysite.csv")
 polbis.data.bysite <- as.data.frame(polbis.data.bysite)
 str(polbis.data.bysite)
+print(polbis.data.bysite)
 
-# Create a data frame with lat and lon columns
-site.latlong <- polbis.data.bysite %>% select(gpslatdec, gpslongdec)
-site.latlong <- subset(site.latlong[2:12,])
-str(site.latlong)
-
-print(site.latlong)
+# Create a data frame with lat and long columns
+site.latlong <- as.data.frame(subset(polbis.data.bysite[2:12,2:3]))
+print(site.latlong)  
 
 # Convert the data frame to a SpatVector
 v <- vect(site.latlong, geom = c("gpslongdec", "gpslatdec"))
+View(v)
 # Set the CRS if you know it (e.g., WGS84)
 crs(v) <- "WGS84"
+
+writeVector(v, "bysite.coordinates.gpkg") 
 
 #once vector file is created, extract the values from raster
 #create a stack with all rasters
